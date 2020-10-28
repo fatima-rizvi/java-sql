@@ -76,7 +76,9 @@ WHERE supplier_id = 11
   </details>
 
 ```SQL
-
+SELECT *
+FROM orders
+ORDER BY order_date DESC
 ```
 
 * [ ] ***find all suppliers who have names longer than 20 characters. Returns 11 records***
