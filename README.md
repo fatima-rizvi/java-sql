@@ -136,7 +136,9 @@ VALUES ('SHIRE', 'The Shire', 'Bilbo Baggins', '1 Hobbit-Hole', 'Bag End', '111'
   </details>
 
 ```SQL
-
+UPDATE customers
+SET postal_code = '11122'
+WHERE customer_id = 'SHIRE'
 ```
 
 * [ ] ***list orders grouped and ordered by customer company name showing the number of orders per customer company name. _Rattlesnake Canyon Grocery_ should have 18 orders***
