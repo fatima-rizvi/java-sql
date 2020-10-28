@@ -179,7 +179,11 @@ ORDER BY count(c.Contact_name) DESC
   </details>
 
 ```SQL
-
+SELECT c.City, count(c.City)
+FROM customers c JOIN orders o
+on o.Ship_name = c.Company_name
+GROUP BY c.City
+ORDER BY c.City
 ```
 
 ## Data Normalization
