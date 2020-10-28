@@ -50,7 +50,9 @@ WHERE city = 'London'
   </details>
 
 ```SQL
-
+SELECT *
+FROM customers
+WHERE postal_code = '1010'
 ```
 
 * [ ] ***find the phone number for the supplier with the id 11. Should be (010) 9984510***
